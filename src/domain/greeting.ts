@@ -3,5 +3,5 @@ export type Greeting = {
 };
 
 export function createGreeting(name: string): Greeting {
-  return { message: `Hello, ${name}!` };
+  return { message: `Hi, ${name}!` };
 }
